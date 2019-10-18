@@ -1,0 +1,66 @@
+package com.lemome.java.maven.day03;
+
+import java.io.File;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.dom4j.Document;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
+
+public class ReflectDemo {
+	public static void main(String []args) throws Exception {
+		String path="src/test/resources/student.xml";		
+				List<Student > students=parseXml(path);
+				for (Student student : students) {
+					System.out.println(student);					
+				}
+//		1.获取类的字节码
+//		2.通过字节码去创建对象
+//		3.反射得到要用的方法对象method
+//		4.通过反射调用方法	
+	}
+	//返回数据为list集合
+	private static List<Student> parseXml(String path) throws Exception {
+		// 创建解析器SaxReader
+		SAXReader reader = new SAXReader();
+//		获取document
+		Document document = reader.read(new File(path));
+//		获取根元素  根元素是element类型
+		Element root = document.getRootElement();
+//		获取根元素下的子元素  页面上所有元素都是element类型
+		
+		List<Element> studentsElements = root.elements("students");
+		List<Student> students=new ArrayList<Student>();
+
+		Class<Student> class1=Student.class;
+		// 通过for循环处理三个根节点下的student元素 取出类sutdents的子元素
+		for (Element studentElement : studentsElements) {
+//		1.获取类的字节码
+//		2.通过字节码去创建对象
+//	    3.反射得到要用的方法对象method
+//	    4.通过反射调用方法	
+//当修改了xml配置文件参数后 那相应代码也需要修改，这时需要找一个方法重新在实现配置文件修改后代码无需修改的方法					
+			List<Element>elements= studentElement.elements();
+			//创建字节码
+			Student student=class1.newInstance();
+			for (Element element : elements) {
+				String elementName=element.getName();
+				elementName="set"+elementName;
+				Method method=class1.getMethod(elementName, String.class);
+				method.invoke(student, element.getText());				
+			}
+		
+//			String name= studentElement.elementText("name");
+//			String age= studentElement.elementText("age");
+//			String gender= studentElement.elementText("gender");			
+//			Student student=new Student(name,age,gender);
+//		System.out.println("name=" + name + ",age=" + age + ",gender=" + gender);
+              students.add(student);
+		}
+		return students;
+		
+	}
+
+}

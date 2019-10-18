@@ -1,0 +1,30 @@
+package com.lemone.java.maven.day02;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class FileCopy {
+	public static void main(String [] args) throws IOException {
+		String fromPath= "";
+		String toPath="";
+		
+		InputStream inputStream =new FileInputStream(fromPath);
+		 OutputStream outputStream=new FileOutputStream(toPath);
+		 
+		 int size=0;
+		 while (inputStream.read()!=-1) {
+			outputStream.write(size);
+			
+		}
+		if (inputStream!=null) {
+			inputStream.close();
+			
+		}
+		System.out.println("finish");
+	}
+
+}

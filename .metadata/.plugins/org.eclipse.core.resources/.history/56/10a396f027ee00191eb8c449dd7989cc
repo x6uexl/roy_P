@@ -1,0 +1,18 @@
+package com.lemome.java.maven.day03;
+
+public class XmlDemo {
+	public static void main(String [] args) {
+		String path = "src/test/resources/student.xml";
+		parseXml(path);
+	}
+
+	private static void parseXml(String path) {
+		// 创建解析器SaxReader
+//		获取document
+//		获取根元素
+//		获取根元素下的子元素
+		
+		
+	}
+
+}

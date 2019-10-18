@@ -1,0 +1,15 @@
+package com.lemome.java.maven.day03;
+
+import sun.util.resources.cldr.az.CalendarData_az_Cyrl_AZ;
+
+public class TestReflect {
+	public static void main(String  [] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {//非法访问异常
+		//方法1 ：获取字节码
+		Class<Student> class1 = Student.class;
+		//方法2：获取字节码
+//		Class <Student> class2 = (Class<Student>) Class.forName("com.lemome.java.maven.day03.Student");
+		//通过字节码通过 newInstance方法创建对象 底层其实调用的是字节码对应类中默认构造函数
+		Student student=class1.newInstance();
+	}
+
+}

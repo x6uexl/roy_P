@@ -1,0 +1,17 @@
+package com.lemone.java.maven.day02;
+
+import com.sun.java.util.jar.pack.Package.File;
+
+public class FileDemo {
+	
+	public static void main(String[] args) {
+		//判断目录是否存在
+		String  path1="/Users/roy/Desktop/aa";//文件路径
+		File file= nw
+		
+		
+		
+		
+	}
+
+}

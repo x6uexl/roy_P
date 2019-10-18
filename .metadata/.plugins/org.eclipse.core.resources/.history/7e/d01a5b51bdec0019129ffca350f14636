@@ -1,0 +1,8 @@
+package com.lemome.java.maven.day03;
+
+public class PropertioesDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

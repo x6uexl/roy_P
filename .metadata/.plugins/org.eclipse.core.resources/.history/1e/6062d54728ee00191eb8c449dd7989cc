@@ -1,0 +1,28 @@
+package com.lemome.java.maven.day03;
+
+import java.io.File;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.io.SAXReader;
+
+public class XmlDemo {
+	public static void main(String [] args) throws DocumentException {
+		String path = "src/test/resources/student.xml";
+		parseXml(path);
+	}
+
+	private static void parseXml(String path) throws DocumentException {
+		// 创建解析器SaxReader
+		SAXReader reader =new SAXReader();
+	
+//		获取document
+		Document document=reader.read(new File(path));
+		
+//		获取根元素
+//		获取根元素下的子元素
+		
+		
+	}
+
+}

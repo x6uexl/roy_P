@@ -1,0 +1,9 @@
+package com.lemome.java.maven.day03;
+
+public class XmlDemo {
+	public static void main(String [] args) {
+		String path = "src/test/resources/student.xml";
+		
+	}
+
+}

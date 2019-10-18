@@ -1,0 +1,13 @@
+package com.lemome.java.maven.day03;
+
+public class TestReflect {
+	public static void main(String  [] args) {
+		//1
+		Class class1=Student.class;
+		//2
+		Class.forName("");
+		
+		
+	}
+
+}

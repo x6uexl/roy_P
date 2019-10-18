@@ -1,0 +1,15 @@
+package com.lemome.java.maven.day03;
+
+public class PropertioesDemo {
+
+	public static void main(String[] args) {
+		String filePath="src/test/resources/log4j.properties";
+		loadProperties(filePath);
+		
+	}
+
+	private static void loadProperties(String filePath) {
+		
+		
+	}
+}

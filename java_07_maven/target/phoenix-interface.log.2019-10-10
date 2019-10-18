@@ -1,0 +1,25 @@
+2019-10-10 10:32:39 method: com.lemone.java.maven.day01.Tester.main(Tester.java:8) - [ INFO ]----dfjl
+2019-10-10 10:32:39 method: com.lemone.java.maven.day01.Tester.main(Tester.java:10) - [ INFO ]---- This is info!!!
+2019-10-10 10:32:39 method: com.lemone.java.maven.day01.Tester.main(Tester.java:11) - [ WARN ]---- This is warn!!!
+2019-10-10 10:32:39 method: com.lemone.java.maven.day01.Tester.main(Tester.java:12) - [ ERROR ]---- This is error!!!
+2019-10-10 10:32:39 method: com.lemone.java.maven.day01.Tester.main(Tester.java:13) - [ FATAL ]---- This is fatal!!!
+2019-10-10 10:38:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:8) - [ INFO ]----dfjl
+2019-10-10 10:38:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:10) - [ INFO ]---- This is info!!!
+2019-10-10 10:38:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:11) - [ WARN ]---- This is warn!!!
+2019-10-10 10:38:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:12) - [ ERROR ]---- This is error!!!
+2019-10-10 10:38:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:13) - [ FATAL ]---- This is fatal!!!
+2019-10-10 10:38:40 method: com.lemone.java.maven.day01.Tester.main(Tester.java:8) - [ INFO ]----dfjl
+2019-10-10 10:38:40 method: com.lemone.java.maven.day01.Tester.main(Tester.java:10) - [ INFO ]---- This is info!!!
+2019-10-10 10:38:40 method: com.lemone.java.maven.day01.Tester.main(Tester.java:11) - [ WARN ]---- This is warn!!!
+2019-10-10 10:38:40 method: com.lemone.java.maven.day01.Tester.main(Tester.java:12) - [ ERROR ]---- This is error!!!
+2019-10-10 10:38:40 method: com.lemone.java.maven.day01.Tester.main(Tester.java:13) - [ FATAL ]---- This is fatal!!!
+2019-10-10 10:39:29 method: com.lemone.java.maven.day01.Tester.main(Tester.java:8) - [ INFO ]----dfjl
+2019-10-10 10:39:29 method: com.lemone.java.maven.day01.Tester.main(Tester.java:10) - [ INFO ]---- This is info!!!
+2019-10-10 10:39:29 method: com.lemone.java.maven.day01.Tester.main(Tester.java:11) - [ WARN ]---- This is warn!!!
+2019-10-10 10:39:29 method: com.lemone.java.maven.day01.Tester.main(Tester.java:12) - [ ERROR ]---- This is error!!!
+2019-10-10 10:39:29 method: com.lemone.java.maven.day01.Tester.main(Tester.java:13) - [ FATAL ]---- This is fatal!!!
+2019-10-10 11:34:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:8) - [ INFO ]----dfjl
+2019-10-10 11:34:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:10) - [ INFO ]---- This is info!!!
+2019-10-10 11:34:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:11) - [ WARN ]---- This is warn!!!
+2019-10-10 11:34:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:12) - [ ERROR ]---- This is error!!!
+2019-10-10 11:34:36 method: com.lemone.java.maven.day01.Tester.main(Tester.java:13) - [ FATAL ]---- This is fatal!!!

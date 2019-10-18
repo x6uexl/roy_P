@@ -1,0 +1,22 @@
+package com.lemome.java.maven.day03;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class PropertioesDemo {
+
+	public static void main(String[] args) {
+		String filePath="src/test/resources/log4j.properties";
+		loadProperties(filePath);
+		
+	}
+
+	private static void loadProperties(String filePath) {
+		Properties properties=new Properties();
+		InputStream iStream = new FileInputStream(new File(filePath));
+		
+		
+	}
+}

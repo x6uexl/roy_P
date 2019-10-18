@@ -1,0 +1,13 @@
+package com.lemone.java.maven.day02;
+
+public class FileDemo {
+	
+	public static void main(String[] args) {
+		//判断目录是否存在
+		
+		
+		
+		
+	}
+
+}

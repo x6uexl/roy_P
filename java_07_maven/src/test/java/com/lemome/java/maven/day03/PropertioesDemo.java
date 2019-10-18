@@ -1,0 +1,26 @@
+package com.lemome.java.maven.day03;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+
+public class PropertioesDemo {//properties文件解析
+
+	public static void main(String[] args) throws IOException {
+		String filePath="src/test/resources/log4j.properties";
+		loadProperties(filePath);
+		
+	}
+
+	private static void loadProperties(String filePath) throws IOException {
+		Properties properties=new Properties();//创建properties对象
+		InputStream iStream = new FileInputStream(new File(filePath));//创建输入流对象，将filepath传给istream
+		properties.load(iStream);//调用properties.load方法，加载
+System.out.println(properties.getProperty("log4j.appender.console"));
+		
+	}
+}

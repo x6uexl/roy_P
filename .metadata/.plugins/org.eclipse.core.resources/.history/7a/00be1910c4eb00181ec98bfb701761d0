@@ -1,0 +1,58 @@
+package com.practice.java05;
+/**计算器：
+ * 1.实现计算器的加减乘除功能，并且支持数据的输入
+ * 2.要导出可执行jira包，通过bat批处理问卷来运行程序
+ * 
+ * @author roy
+ *
+ */
+public class Calculator {
+	
+	/**
+	 * 加法
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+ public  double add(double a ,double b) {
+	 return a+b;
+ }
+ /**
+  * 减法
+  * @param a
+  * @param b
+  * @return
+  */
+ public  double substract(double a ,double b) {
+	 return a-b;
+ }
+ 
+ /**
+  * 乘法
+  * @param a
+  * @param b
+  * @return
+  */
+ public  double  multiply(double a ,double b) {
+	 return a*b;
+ }
+ 
+ /**
+  * 除法
+  * @param a
+  * @param b
+  * @return
+  */
+ public  double divide(double a ,double b) {
+	 return a/b;
+
+ }
+ 
+     public static void main(String[]args ) {
+    	 //定义类，创建对象
+    	 double a= 5;
+    	 double b =6;
+    	 Calculator calculator = new Calculator();
+    	 System.out.println(calculator.add(a,b));
+     }
+}

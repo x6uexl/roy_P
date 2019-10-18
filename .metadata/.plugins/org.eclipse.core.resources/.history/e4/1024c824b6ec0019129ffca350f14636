@@ -1,0 +1,16 @@
+package com.lemone.java.maven.day02;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class FileCopy {
+	public static void main(String [] args) {
+		String fromPath= "";
+		String toPath="";
+		
+		InputStream inputStream =new FileInputStream(fromPath);
+		inputStream.read();
+		
+	}
+
+}

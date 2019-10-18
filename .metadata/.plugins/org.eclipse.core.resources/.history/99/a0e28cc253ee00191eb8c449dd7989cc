@@ -1,0 +1,13 @@
+package com.lemome.java.maven.day03;
+
+public class TestReflect {
+	public static void main(String  [] args) throws ClassNotFoundException {
+		//方法1 ：获取字节码
+		Class class1=Student.class;
+		//方法2：获取字节码
+		Class<Student> class2=(Class<Student>) Class.forName("package com.lemome.java.maven.day03");
+		
+		
+	}
+
+}

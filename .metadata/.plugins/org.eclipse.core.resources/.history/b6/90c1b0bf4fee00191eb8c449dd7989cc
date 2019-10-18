@@ -1,0 +1,33 @@
+package com.lemome.java.maven.day03;
+
+public class Student {
+	private String name;
+	private String age;
+	private String gendr;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+	public String getGendr() {
+		return gendr;
+	}
+	public void setGendr(String gendr) {
+		this.gendr = gendr;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}
+
+

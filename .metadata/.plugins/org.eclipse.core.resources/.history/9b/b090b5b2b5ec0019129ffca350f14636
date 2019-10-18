@@ -1,0 +1,9 @@
+package com.lemone.java.maven.day02;
+
+public class FileCopy {
+	public static void main(String [] args) {
+		
+		
+	}
+
+}
